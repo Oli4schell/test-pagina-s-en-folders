@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<link id="pagestyle" rel="stylesheet" type="text/css" href="bereken_salaris_uiterlijk.css">
+<script>
+    function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+</script>
+
+<head>
+    <title>salaris berekenen</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bereken_salaris_uiterlijk.css">
+    <script src="bereken_salaris_code.js"></script>
+</head>
+
+<body>
+
+    <div id="reken">
+        <h1>salaris berekenen</h1>
+        Aantal uren per week:<br>
+        <input type="text" size="15" name="getal1" id="getal1">
+        <br> Uursalaris:<br>
+        <input type="text" size="15" name="getal2" id="getal2"><br><br>
+
+        <button id="berekenen">bereken</button>
+        <button id="wis">wis</button>
+
+        <div id="uitkomst">
+        </div>
+    </div>
+</body>
+
+</html>

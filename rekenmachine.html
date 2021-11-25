@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<link id="pagestyle" rel="stylesheet" type="text/css" href="lay-out.css">
+<script>
+    function swapStyleSheet(sheet) {
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+</script>
+
+<head>
+    <title>rekenmachine</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="rekenmachine_uiterlijk.css">
+    <script src="rekenmachine_code.js"></script>
+</head>
+
+<body>
+    <div class="reken">
+        Getal 1:<br>
+        <input type="text" size="15" name="getal1" id="getal1"><br> Getal 2:<br>
+        <input type="text" size="15" name="getal2" id="getal2"><br><br>
+
+        
+        <button id="plus">+</button>
+        <button id="min">-</button>
+        <button id="keer">X</button>
+        <br>
+        <br>
+        <button id="delen">/</button>
+        <button id="macht2">X^2</button>
+        <button id="wortel">√X</button>
+        <br>
+        <br>
+        <button id="machttot">X^Y</button>
+        <button id="tafel">tafel</button>
+        <button id="kop">opnieuw</button></form>
+        
+
+    <br><br> Uitkomst:
+
+    
+    <div id="uitkomst"></div></div><br><br>
+</body>
+
+</html>
